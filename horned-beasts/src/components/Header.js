@@ -1,12 +1,14 @@
 import React from 'react';
-class Header extends React.Component {
-    render() {
-        return (
-            <div>
+
+class Header extends React.Component{
+
+    render(){
+        return(
             <header>
-              <h1>Animals Comparing</h1>
+            <h1>
+                Welcome To HornedBeast
+            </h1>
             </header>
-            </div>
         )
     }
 }
