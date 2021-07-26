@@ -1,10 +1,13 @@
 import React from 'react';
-class Footer extends React.Component {
-    render() {
-        return (
+class Footer extends React.Component{
+
+    render(){
+        return(
             <div>
             <footer>
-              Nada Al-Abdullah
+                <p>
+                &copy;Doaa Daban
+               </p>
             </footer>
             </div>
         )

@@ -1,9 +1,11 @@
 import React from 'react';
-import './App.css';
-import Main from './components/Main';
 import Header from './components/Header';
+import Main from './components/Main';
 import Footer from './components/Footer';
+import './App.css';
+
 class App extends React.Component {
+
   render() {
     return (
       <div>
@@ -14,4 +16,5 @@ class App extends React.Component {
     )
   }
 }
+
 export default App;
