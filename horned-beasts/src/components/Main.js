@@ -1,22 +1,21 @@
-import React from 'react';
-import HornedBeasts from './HornedBeasts';
-import data from '../data.json';
+import React from "react";
+import HornedBeasts from "./HornedBeasts";
+import data from "../data.json";
 
 class Main extends React.Component {
   render() {
-    return(        
+    return (
       <main>
-
-        {
-          data.map((elements) =>{
-            return <HornedBeasts title={elements.title}
+        {data.map((elements) => {
+          return (
+            <HornedBeasts
+              title={elements.title}
               image_url={elements.image_url}
-              description={elements.description}/>;
-          })
-
-
-        }
-      </main>   
+              description={elements.description}
+            />
+          );
+        })}
+      </main>
     );
   }
 }
